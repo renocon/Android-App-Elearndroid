@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ElearnDroid</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_make_new_user">MakeNewUser</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_quiz_chooser">QuizChooser</string>
+
+    <string-array name="lessons">
+        <item>Toast</item>
+        <item>ImageView</item>
+        <item>ListView</item>
+        <item>EditText</item>
+        <item>Button</item>
+        <item>Spinner</item>
+        <item>Chronometer</item>
+        <item>Quiz</item>
+        <item>Switch User</item>
+    </string-array>
+    <string name="title_activity_lesson_viewer">LessonViewer</string>
+    <string name="title_activity_quiz">Quiz</string>
+</resources>

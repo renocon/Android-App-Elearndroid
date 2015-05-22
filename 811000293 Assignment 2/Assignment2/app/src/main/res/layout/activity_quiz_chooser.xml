@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.warren.assignment2.QuizChooser"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="logout"
+            android:id="@+id/logoutbutton"
+            android:enabled="true"
+            android:clickable="true"
+            android:onClick="logout" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Intro"
+            android:id="@+id/introLessonBtn"
+            android:clickable="true"
+            android:enabled="true"
+            android:nestedScrollingEnabled="false"
+            android:onClick="lessons" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:id="@+id/toastLessonBtn"
+            android:layout_gravity="center_horizontal"
+            android:onClick="lessons"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ImageView"
+            android:id="@+id/imageViewLessonBtn"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="false"
+            android:onClick="lessons"
+            android:enabled="true"
+            android:clickable="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ListView"
+            android:id="@+id/listViewLessonBtn"
+            android:onClick="lessons"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="EditText"
+            android:id="@+id/editTextLessonBtn"
+            android:layout_gravity="center_horizontal"
+            android:onClick="lessons"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:id="@+id/buttonLessonBtn"
+            android:layout_gravity="center_horizontal"
+            android:onClick="lessons"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Spinner"
+            android:id="@+id/spinnerLessonBtn"
+            android:onClick="lessons"
+            android:enabled="true"
+            android:clickable="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Chronometer"
+            android:id="@+id/chronometerLessonBtn"
+            android:onClick="lessons"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:id="@+id/quizBtn"
+            android:layout_gravity="center_horizontal"
+            android:onClick="quiz"
+            android:enabled="true"
+            android:clickable="true" />
+    </LinearLayout>
+</ScrollView>
